@@ -1,0 +1,410 @@
+name: connect_gym
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  google_fonts: ^6.1.0
+  email_validator: '^2.1.16'
+  get: ^4.6.6
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/page-1/images/threedotsvertical.png
+    - assets/page-1/images/people.png
+    - assets/page-1/images/journalcheck.png
+    - assets/page-1/images/ellipse-15.png
+    - assets/page-1/images/material-symbols-inventory-2-outline.png
+    - assets/page-1/images/threedotsvertical-Fdn.png
+    - assets/page-1/images/exclude.png
+    - assets/page-1/images/threedotsvertical-BNk.png
+    - assets/page-1/images/threedotsvertical-jSt.png
+    - assets/page-1/images/material-symbols-inventory-2-outline-2pc.png
+    - assets/page-1/images/boxarrowright.png
+    - assets/page-1/images/ph-instagram-logo-fill.png
+    - assets/page-1/images/threedotsvertical-ZrL.png
+    - assets/page-1/images/vector.png
+    - assets/page-1/images/group-6.png
+    - assets/page-1/images/mdi-chess-bishop.png
+    - assets/page-1/images/personcircle.png
+    - assets/page-1/images/ri-notification-2-fill.png
+    - assets/page-1/images/vector-CDJ.png
+    - assets/page-1/images/mdi-facebook-messenger.png
+    - assets/page-1/images/ic-baseline-facebook.png
+    - assets/page-1/images/chat-text.png
+    - assets/page-1/images/ph-instagram-logo-fill-MSL.png
+    - assets/page-1/images/arrowdownup.png
+    - assets/page-1/images/rectangle-12-bg.png
+    - assets/page-1/images/threedotsvertical-3Nt.png
+    - assets/page-1/images/union.png
+    - assets/page-1/images/jam-menu.png
+    - assets/page-1/images/mdi-chess-king.png
+    - assets/page-1/images/book.png
+    - assets/page-1/images/exclude-Ltk.png
+    - assets/page-1/images/calculator.png
+    - assets/page-1/images/group-6-35e.png
+    - assets/page-1/images/union-HXi.png
+    - assets/page-1/images/vector-qp8.png
+    - assets/page-1/images/calculator-VvU.png
+    - assets/page-1/images/ic-baseline-facebook-JCC.png
+    - assets/page-1/images/jam-menu-xCC.png
+    - assets/page-1/images/mdi-chess-pawn.png
+    - assets/page-1/images/people-MQY.png
+    - assets/page-1/images/arrow-down.png
+    - assets/page-1/images/exclude-ChJ.png
+    - assets/page-1/images/vector-zFn.png
+    - assets/page-1/images/ri-notification-2-fill-WE8.png
+    - assets/page-1/images/union-ygg.png
+    - assets/page-1/images/search.png
+    - assets/page-1/images/pencilsquare.png
+    - assets/page-1/images/pencilsquare-q9N.png
+    - assets/page-1/images/personcircle-nrQ.png
+    - assets/page-1/images/vector-XCG.png
+    - assets/page-1/images/journalcheck-2Tn.png
+    - assets/page-1/images/vector-d2t.png
+    - assets/page-1/images/mdi-facebook-messenger-whe.png
+    - assets/page-1/images/n-4.png
+    - assets/page-1/images/sport-girl-1.png
+    - assets/page-1/images/fitness-equipment-1.png
+    - assets/page-1/images/threedotsvertical-zkt.png
+    - assets/page-1/images/qualified-trainer-1.png
+    - assets/page-1/images/sports-bags-1.png
+    - assets/page-1/images/personcircle-Hgx.png
+    - assets/page-1/images/ri-notification-2-fill-tC4.png
+    - assets/page-1/images/book-nEp.png
+    - assets/page-1/images/exclude-prx.png
+    - assets/page-1/images/chat-text-aNp.png
+    - assets/page-1/images/vector-znY.png
+    - assets/page-1/images/gym-accessories-1.png
+    - assets/page-1/images/fully-secured-area-1.png
+    - assets/page-1/images/chat-text-JmJ.png
+    - assets/page-1/images/vector-9ac.png
+    - assets/page-1/images/chat-text-to6.png
+    - assets/page-1/images/vector-fJ4.png
+    - assets/page-1/images/pencilsquare-2Ag.png
+    - assets/page-1/images/qualified-trainer-1-5ue.png
+    - assets/page-1/images/material-symbols-keyboard-arrow-down-rounded.png
+    - assets/page-1/images/group-6-ZKr.png
+    - assets/page-1/images/group-6-MD6.png
+    - assets/page-1/images/vector-cui.png
+    - assets/page-1/images/fitness-equipment-1-Ndz.png
+    - assets/page-1/images/threedotsvertical-8dA.png
+    - assets/page-1/images/rectangle-70-bg.png
+    - assets/page-1/images/calculator-ggc.png
+    - assets/page-1/images/vector-QsW.png
+    - assets/page-1/images/ri-notification-2-fill-hk8.png
+    - assets/page-1/images/mdi-chess-knight.png
+    - assets/page-1/images/boxarrowright-pZr.png
+    - assets/page-1/images/journalcheck-ySk.png
+    - assets/page-1/images/rectangle-10-bg.png
+    - assets/page-1/images/personcircle-7J4.png
+    - assets/page-1/images/material-symbols-keyboard-arrow-down-rounded-URS.png
+    - assets/page-1/images/journalcheck-nqS.png
+    - assets/page-1/images/protein-nutrition-2.png
+    - assets/page-1/images/pencilsquare-GdS.png
+    - assets/page-1/images/boxarrowright-qFA.png
+    - assets/page-1/images/individual-locker-1.png
+    - assets/page-1/images/individual-locker-1-9iL.png
+    - assets/page-1/images/vector-86Q.png
+    - assets/page-1/images/people-KT2.png
+    - assets/page-1/images/rectangle-12-bg-RE4.png
+    - assets/page-1/images/vector-N9J.png
+    - assets/page-1/images/book-eDi.png
+    - assets/page-1/images/n-4-mZE.png
+    - assets/page-1/images/n-5.png
+    - assets/page-1/images/vector-cct.png
+    - assets/page-1/images/rectangle-11-bg.png
+    - assets/page-1/images/n-4-cmJ.png
+    - assets/page-1/images/rectangle-54.png
+    - assets/page-1/images/threedotsvertical-LmS.png
+    - assets/page-1/images/group-6-9PS.png
+    - assets/page-1/images/material-symbols-inventory-2-outline-rYk.png
+    - assets/page-1/images/people-Q4U.png
+    - assets/page-1/images/journalcheck-kPE.png
+    - assets/page-1/images/n-4-CFE.png
+    - assets/page-1/images/rectangle-80-bg.png
+    - assets/page-1/images/rectangle-10-bg-K4x.png
+    - assets/page-1/images/ellipse-8.png
+    - assets/page-1/images/union-8KE.png
+    - assets/page-1/images/threedotsvertical-Z3A.png
+    - assets/page-1/images/boxarrowright-hfA.png
+    - assets/page-1/images/calculator-fUp.png
+    - assets/page-1/images/personcircle-HAk.png
+    - assets/page-1/images/ri-notification-2-fill-5rU.png
+    - assets/page-1/images/rectangle-106.png
+    - assets/page-1/images/sports-outfit-1.png
+    - assets/page-1/images/pencilsquare-Ad2.png
+    - assets/page-1/images/management-app-login-page-bg.png
+    - assets/page-1/images/vector-vkL.png
+    - assets/page-1/images/chat-text-8a8.png
+    - assets/page-1/images/rectangle-12-bg-tKe.png
+    - assets/page-1/images/book-pf6.png
+    - assets/page-1/images/n-4-Z6t.png
+    - assets/page-1/images/rectangle-46-bg.png
+    - assets/page-1/images/rectangle-11-bg-LMr.png
+    - assets/page-1/images/boxarrowright-Vz4.png
+    - assets/page-1/images/n-4-Aqr.png
+    - assets/page-1/images/fully-secured-area-1-f1v.png
+    - assets/page-1/images/mdi-crown.png
+    - assets/page-1/images/vector-4.png
+    - assets/page-1/images/journalcheck-nNg.png
+    - assets/page-1/images/management-app-account-creation-page-bg.png
+    - assets/page-1/images/rectangle-10-bg-hVE.png
+    - assets/page-1/images/calculator-qak.png
+    - assets/page-1/images/vector-ziY.png
+    - assets/page-1/images/people-cNY.png
+    - assets/page-1/images/book-9DE.png
+    - assets/page-1/images/material-symbols-inventory-2-outline-RwS.png
+    - assets/page-1/images/rectangle-11-bg-gng.png
+    - assets/page-1/images/material-symbols-inventory-2-outline-qWt.png
+    - assets/page-1/images/vector-2.png
+    - assets/page-1/images/n-4-QJG.png
+    - assets/page-1/images/vector-do2.png
+    - assets/page-1/images/boxarrowright-Hfi.png
+    - assets/page-1/images/vector-Wj6.png
+    - assets/page-1/images/ri-notification-2-fill-L8t.png
+    - assets/page-1/images/chat-text-hQg.png
+    - assets/page-1/images/calculator-zn8.png
+    - assets/page-1/images/ri-notification-2-fill-xPW.png
+    - assets/page-1/images/pencilsquare-QuJ.png
+    - assets/page-1/images/vector-h2C.png
+    - assets/page-1/images/journalcheck-tUt.png
+    - assets/page-1/images/people-ntc.png
+    - assets/page-1/images/people-if6.png
+    - assets/page-1/images/vector-hj2.png
+    - assets/page-1/images/book-KD6.png
+    - assets/page-1/images/personcircle-tRJ.png
+    - assets/page-1/images/book-NEY.png
+    - assets/page-1/images/chat-text-t3n.png
+    - assets/page-1/images/group-6-aY4.png
+    - assets/page-1/images/vector-8hS.png
+    - assets/page-1/images/book-LUU.png
+    - assets/page-1/images/vector-ApC.png
+    - assets/page-1/images/calculator-xLc.png
+    - assets/page-1/images/personcircle-MPJ.png
+    - assets/page-1/images/personcircle-2Di.png
+    - assets/page-1/images/group-6-3pG.png
+    - assets/page-1/images/vector-SZS.png
+    - assets/page-1/images/threedotsvertical-ttc.png
+    - assets/page-1/images/group-6-DR6.png
+    - assets/page-1/images/threedotsvertical-kvp.png
+    - assets/page-1/images/people-sBS.png
+    - assets/page-1/images/boxarrowright-axk.png
+    - assets/page-1/images/pencilsquare-WBE.png
+    - assets/page-1/images/vector-pf6.png
+    - assets/page-1/images/vector-Sn8.png
+    - assets/page-1/images/vector-E5S.png
+    - assets/page-1/images/vector-cXe.png
+    - assets/page-1/images/journalcheck-62Y.png
+    - assets/page-1/images/ri-notification-2-fill-Nzp.png
+    - assets/page-1/images/pencilsquare-VsS.png
+    - assets/page-1/images/material-symbols-inventory-2-outline-qnC.png
+    - assets/page-1/images/material-symbols-inventory-2-outline-TYg.png
+    - assets/page-1/images/material-symbols-keyboard-arrow-down-rounded-etc.png
+    - assets/page-1/images/chat-text-zm2.png
+    - assets/page-1/images/pencilsquare-qdW.png
+    - assets/page-1/images/journalcheck-zYU.png
+    - assets/page-1/images/vector-WLL.png
+    - assets/page-1/images/personcircle-7pp.png
+    - assets/page-1/images/pencilsquare-HbS.png
+    - assets/page-1/images/material-symbols-inventory-2-outline-jKA.png
+    - assets/page-1/images/vector-91W.png
+    - assets/page-1/images/boxarrowright-8dA.png
+    - assets/page-1/images/n-4-opp.png
+    - assets/page-1/images/journalcheck-Mcx.png
+    - assets/page-1/images/n-4-15N.png
+    - assets/page-1/images/check.png
+    - assets/page-1/images/vector-zVz.png
+    - assets/page-1/images/rank-bar.png
+    - assets/page-1/images/threedotsvertical-w4Y.png
+    - assets/page-1/images/material-symbols-inventory-2-outline-QP6.png
+    - assets/page-1/images/calculator-RsS.png
+    - assets/page-1/images/n-4-Cqz.png
+    - assets/page-1/images/material-symbols-keyboard-arrow-down-rounded-LvQ.png
+    - assets/page-1/images/vector-ixk.png
+    - assets/page-1/images/clock-time.png
+    - assets/page-1/images/check-B64.png
+    - assets/page-1/images/threedotsvertical-UHJ.png
+    - assets/page-1/images/vector-aXv.png
+    - assets/page-1/images/pencilsquare-eHJ.png
+    - assets/page-1/images/book-EXe.png
+    - assets/page-1/images/cross-x.png
+    - assets/page-1/images/boxarrowright-zwn.png
+    - assets/page-1/images/vector-Ymi.png
+    - assets/page-1/images/personcircle-vfe.png
+    - assets/page-1/images/ribbon-award.png
+    - assets/page-1/images/personcircle-3LG.png
+    - assets/page-1/images/ri-notification-2-fill-idr.png
+    - assets/page-1/images/people-fX2.png
+    - assets/page-1/images/stopwatch-timer.png
+    - assets/page-1/images/chat-text-bzk.png
+    - assets/page-1/images/upstash-redis.png
+    - assets/page-1/images/group-6-8Vz.png
+    - assets/page-1/images/vector-LBe.png
+    - assets/page-1/images/n-4-TKA.png
+    - assets/page-1/images/calculator-fsa.png
+    - assets/page-1/images/logo-bg.png
+    - assets/page-1/images/ellipse-6.png
+    - assets/page-1/images/ellipse-5.png
+    - assets/page-1/images/vector-2xt.png
+    - assets/page-1/images/ellipse-1.png
+    - assets/page-1/images/ellipse-4.png
+    - assets/page-1/images/group-8.png
+    - assets/page-1/images/vector-xQ4.png
+    - assets/page-1/images/ellipse-8-hJk.png
+    - assets/page-1/images/vector-HZe.png
+    - assets/page-1/images/ellipse-3.png
+    - assets/page-1/images/process.png
+    - assets/page-1/images/ellipse-8-ytp.png
+    - assets/page-1/images/logo.png
+    - assets/page-1/images/ellipse-4-Zzt.png
+    - assets/page-1/images/group-23.png
+    - assets/page-1/images/ellipse-7.png
+    - assets/page-1/images/vector-qgx.png
+    - assets/page-1/images/ellipse-1-iWx.png
+    - assets/page-1/images/more.png
+    - assets/page-1/images/membership-card.png
+    - assets/page-1/images/group-23-TwS.png
+    - assets/page-1/images/ellipse-9.png
+    - assets/page-1/images/ellipse-7-YQk.png
+    - assets/page-1/images/ellipse-2.png
+    - assets/page-1/images/qr-code.png
+    - assets/page-1/images/vector-qNk.png
+    - assets/page-1/images/ellipse-6-DeC.png
+    - assets/page-1/images/vector-iAx.png
+    - assets/page-1/images/ellipse-3-f6C.png
+    - assets/page-1/images/battery.png
+    - assets/page-1/images/group-69.png
+    - assets/page-1/images/vector-NMr.png
+    - assets/page-1/images/muscle.png
+    - assets/page-1/images/more-1Ek.png
+    - assets/page-1/images/more-KAC.png
+    - assets/page-1/images/auto-group-l1it.png
+    - assets/page-1/images/battery-x4c.png
+    - assets/page-1/images/vector-Hyv.png
+    - assets/page-1/images/auto-group-yzjc.png
+    - assets/page-1/images/notification.png
+    - assets/page-1/images/ellipse-9-YX6.png
+    - assets/page-1/images/muscle-tap.png
+    - assets/page-1/images/upgrade.png
+    - assets/page-1/images/schedule.png
+    - assets/page-1/images/vector-DoS.png
+    - assets/page-1/images/clock.png
+    - assets/page-1/images/buy-upgrade.png
+    - assets/page-1/images/coming-soon.png
+    - assets/page-1/images/membership-card-E44.png
+    - assets/page-1/images/vector-aNp.png
+    - assets/page-1/images/qr-code-8uS.png
+    - assets/page-1/images/membership-card-kbv.png
+    - assets/page-1/images/vector-g7N.png
+    - assets/page-1/images/avatar.png
+    - assets/page-1/images/ellipse-2-fAt.png
+    - assets/page-1/images/calendar.png
+    - assets/page-1/images/vector-HcQ.png
+    - assets/page-1/images/vector-cNQ.png
+    - assets/page-1/images/rectangle-120-bg.png
+    - assets/page-1/images/flying-stork-with-bundle.png
+    - assets/page-1/images/avatar-EH2.png
+    - assets/page-1/images/ellipse-5-16k.png
+    - assets/page-1/images/group-23-nj6.png
+    - assets/page-1/images/vector-qWk.png
+    - assets/page-1/images/vector-dUY.png
+    - assets/page-1/images/vector-kfe.png
+    - assets/page-1/images/battery-b6U.png
+    - assets/page-1/images/vector-ZYQ.png
+    - assets/page-1/images/avatar-u5v.png
+    - assets/page-1/images/auto-group-ezji.png
+    - assets/page-1/images/qr-code-scanner.png
+    - assets/page-1/images/group-8-3YG.png
+    - assets/page-1/images/pencilsquare-CLt.png
+    - assets/page-1/images/vector-SRa.png
+    - assets/page-1/images/vector-m7r.png
+    - assets/page-1/images/vector-Sdr.png
+    - assets/page-1/images/group-6-akL.png
+    - assets/page-1/images/calculator-4iG.png
+    - assets/page-1/images/chat-text-dc8.png
+    - assets/page-1/images/n-4-RDN.png
+    - assets/page-1/images/vector-8Uk.png
+    - assets/page-1/images/people-Ucc.png
+    - assets/page-1/images/material-symbols-inventory-2-outline-Vnc.png
+    - assets/page-1/images/book-4nY.png
+    - assets/page-1/images/journalcheck-29A.png
+    - assets/page-1/images/personcircle-pHz.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
