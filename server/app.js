@@ -32,7 +32,7 @@ app.use(membersRouter);
 
 //routes
 app.get('/getuser', async (req, res) => {
-    updateRemainingDays();
+    //updateRemainingDays();
     await Users.findOne(req.email)
     .then((result) => {
         res.json({
