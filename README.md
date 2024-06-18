@@ -10,7 +10,7 @@ This is a Gym management web application designed to simplify the management of 
 - **Adjust Plans**: Adjust membershhip plans as needed.
 
 ## Want to see a demo?
-go to this site https://connect-fitness.web.app
+go to this site https://hashgym.web.app/
 
 
 ## Technologies
